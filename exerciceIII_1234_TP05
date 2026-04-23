@@ -1,0 +1,19 @@
+print("Bonjour BTS SIO") 
+print("Mon premier programme Python")
+
+nom = str(input("Quel est ton prénom Humain ? "))
+print("Bonjour", nom)
+
+a = int(input("Notes ton nombre : "))
+if a >= 10: 
+    print("Ton nombre est :", a)
+else:
+    print("Ton chiffre est :", a)
+
+x=float(input("Ecris ta note :"))
+y= float(input("Ecris ta deuxième note :"))
+moyenne = (x+y)/2
+if moyenne <=10: 
+    print("La moyenne de tes notes est: ", moyenne ," Tu n'as pas la moyenne, t'es nul ! ")
+else:
+    print("La moyenne de tes notes est: ", moyenne, " Tu as la moyenne ! Bravo ! ")

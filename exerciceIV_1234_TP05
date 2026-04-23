@@ -1,0 +1,20 @@
+def bonjour():
+    print("Bonjour à tous")
+bonjour()
+
+def saluer(prenom):
+    print("Bonjour", prenom)
+saluer("Hillary")
+saluer("Daniel")
+saluer("Echo")
+
+def somme(a, b):
+    resultat= a + b
+    print("Résultat:", resultat)
+somme(4, 78)
+
+def calculer_somme():
+    a = int(input("Nombre 1 : "))
+    b = int(input("Nombre 2 : "))
+    print("Somme : ", a + b)
+calculer_somme()

@@ -1,0 +1,11 @@
+def stocker():
+    a = int(input("Ecris un chiffre :"))
+    b = int(input("Ecris un deuxième chiffre :"))
+    c = int(input("Ecris un troisième chiffre :"))
+    d = int(input("Ecris un quatrième chiffre :"))
+    e = int(input("Ecris un cinquième chiffre :"))
+    liste = [a, b, c, d, e]
+    print("Voici ta liste de chiffres : ", liste)
+    liste.sort()
+    print("Voici ta liste de chiffres triée : ", liste)
+stocker()
