@@ -30,7 +30,7 @@ pair_ou_impair()
 #exercice 3 """
 def acces_manege():
     taille_min = 140
-    age_min = 12
+    age_min = 18
     age_adherant = int(input("Quel âge avez-vous ? " )) 
     taille_adherant = int(input("Quelle est votre taille en cm ? "))
     if age_adherant < age_min and taille_adherant > taille_min : 
