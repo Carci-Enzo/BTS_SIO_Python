@@ -1,13 +1,15 @@
 
 def mot_de_passe():
     i = 0 
-    while i > 2 :
-        password = "EnmOde5ha77a"
-        tentative = input(str(" Veuillez entrer votre mot de passe : ")) 
-        if password != tentative: 
-            tentative = input(str(" Veuillez réassayer : ")) 
-            i = i + 1        
-        else :
-            print( "connexion réussie")
-    while j >
-           
+    password = "EnmOde5ha77a"
+    tentative_user = str(input(" Veuillez entrer votre mot de passe : ")) 
+    while i < 2 :
+         if tentative_user != password : 
+            i = i+1
+            tentative_user = str(input(" Recommancez s'il vous plaît : "))
+         else :
+             print("mot de passe correcte")
+             return
+
+    print( "Trop de tentatives bougé ! ")
+mot_de_passe()
