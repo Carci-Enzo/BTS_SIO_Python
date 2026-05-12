@@ -30,12 +30,8 @@ somme_de_nombres()
 """
 def mot_de_passe ():
     mot_de_passe_1 = "BozuKatodic"
-    tentative_user = str(input( "Entrez votre mot de passe : ")) 
+    tentative_user =  tentative_user = str(input( "Entrez votre mot de passe : "))
     while mot_de_passe_1 != tentative_user :
-        if tentative_user != mot_de_passe : 
-            print( " recommancé ")
-            return mot_de_passe()
-        else: 
-           break
-    print("Accès autorisé")    
+        tentative_user = str(input( "Recommance petite pute : "))
+    print ("Accès autorisé") 
 mot_de_passe()

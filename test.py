@@ -3,6 +3,5 @@ def mot_de_passe ():
     tentative_user =  tentative_user = str(input( "Entrez votre mot de passe : "))
     while mot_de_passe_1 != tentative_user :
         tentative_user = str(input( "Recommance petite pute : "))
-        print("accès autorisé")
- 
+    print ("Accès autorisé") 
 mot_de_passe()
